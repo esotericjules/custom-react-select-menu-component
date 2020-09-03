@@ -1,0 +1,35 @@
+.change-data {
+  background-color: #fff;
+  border: 1px double #eee;
+  color: rgb(41, 146, 208);
+  padding: 20px 10px 25px 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: 4px 4px 3px #999999;
+}
+
+.fetching {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 20px 0;
+  font-weight: 200;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-option-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.selected-option {
+  margin-right: 10px;
+}
